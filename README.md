@@ -22,3 +22,8 @@
 - 后端系统内部的一个定义  
 
 ***  
+## mysql
+- 安装下载（mysql,workbeach  
+- 如何建库建表  
+- 建表时常用的数据类型（int,bigint,varchar,longtext)  
+- sql语句实现增删改查  
