@@ -27,3 +27,4 @@
 - 如何建库建表  
 - 建表时常用的数据类型（int,bigint,varchar,longtext)  
 - sql语句实现增删改查  
+- [解决Node.js mysql客户端不支持认证协议引发](https://waylau.com/node.js-mysql-client-does-not-support-authentication-protocol/)
