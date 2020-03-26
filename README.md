@@ -28,3 +28,18 @@
 - 建表时常用的数据类型（int,bigint,varchar,longtext)  
 - sql语句实现增删改查  
 - [解决Node.js mysql客户端不支持认证协议引发](https://waylau.com/node.js-mysql-client-does-not-support-authentication-protocol/)
+
+
+## api对接mysql（node原生  
+- node连接mysql  
+1. 创建链接对象   
+2. connect()  
+3. 执行操作(query)    
+4. 断开连接
+- 根据node_env区分配置  
+- 封装exec函数 
+
+## 登录  
+- cookie和session  
+- session写入redis  
+- nginx反向代理
