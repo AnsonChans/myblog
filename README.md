@@ -41,5 +41,10 @@
 
 ## 登录  
 - cookie和session  
+### cookie  
+- cookie定义和特点  
+- 前后端如何查看修改cookie  
+- 如何使用cookie登录验证  
+### session  
 - session写入redis  
 - nginx反向代理
