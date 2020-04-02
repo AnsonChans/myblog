@@ -46,5 +46,13 @@
 - 前后端如何查看修改cookie  
 - 如何使用cookie登录验证  
 ### session  
+- 不使用redis：  
+1. session直接是js变量，放在nodejs进程内存中  
+2. 进程内存有限，访问量过大时，内存爆增  
+3. 正式线上多进程，进程之间内存无法共享  
 - session写入redis  
+1. web server最常用的缓存数据库，数据存放在内存中（读写快，昂贵）
+2. session访问频繁，对性能要求高  
+3. session可不考虑断电丢失数据的问题（内存硬伤  
+4. session的数据量不会太大
 - nginx反向代理
