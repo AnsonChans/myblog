@@ -67,6 +67,7 @@
 - 访问日志（access log)  
 - 自定义日志（自定义事件，错误） 
 #### 步骤  
-- nodejs 文件操作 node stream  
+- nodejs 文件操作 node stream(提高性能    
 - 日志功能开发和使用  
-- 日志文件拆分，日志内容分析  
+- 日志文件拆分（crontab，日志内容分析(readline  
+### 安全  
