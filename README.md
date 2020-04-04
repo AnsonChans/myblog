@@ -9,9 +9,9 @@
 1.前端：react+webpack+antd+axios(暂定  
 2.后台：koa2/express+mysql+redis（暂定  
 ### router和controller分开  
-## router只关注路由分配，根据路由来分配相应的数据和数据格式  
-## controller则只关注数据处理
-
+#### router只关注路由分配，根据路由来分配相应的数据和数据格式  
+#### controller则只关注数据处理  
+# 服务端
 ### 路由和api  
 ## API
 - 前端和后台、不同端（子系统）之间对接的一个术语  
@@ -71,3 +71,10 @@
 - 日志功能开发和使用  
 - 日志文件拆分（crontab，日志内容分析(readline  
 ### 安全  
+#### 分类  
+- sql注入：窃取数据库内容  
+1. 原理  
+2. 危害  
+3. 预防（escape
+- XSS攻击：窃取前端cookie内容  
+- 密码加密  
