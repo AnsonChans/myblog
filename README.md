@@ -11,6 +11,15 @@
 ### router和controller分开  
 #### router只关注路由分配，根据路由来分配相应的数据和数据格式  
 #### controller则只关注数据处理  
+
+### server和前端的区别  
+- 服务稳定性  
+- 内存CPU(优化、拓展  
+- 日志记录  
+- 安全  
+- 集群和服务拆分
+
+
 # 服务端
 ### 路由和api  
 ## API
@@ -69,7 +78,7 @@
 #### 步骤  
 - nodejs 文件操作 node stream(提高性能    
 - 日志功能开发和使用  
-- 日志文件拆分（crontab，日志内容分析(readline  
+- 日志文件拆分（contrab，日志内容分析(readline  
 ### 安全  
 #### 分类  
 - sql注入：窃取数据库内容  
@@ -80,3 +89,11 @@
 1. 在页面展示内容参杂js代码,获取网页信息  
 2. 预防（转换生成js的特殊字符
 - 密码加密  
+1. 使用crypto  
+
+
+## 核心知识点(NODE原生  
+1. http，nodejs处理http,处理路由，mysql  
+2. cookie,session,redis,nginx反向代理  
+3. sql注入，xss攻击，加密  
+4. 日志，stream，contrab,readline
