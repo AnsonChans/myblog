@@ -96,4 +96,15 @@
 1. http，nodejs处理http,处理路由，mysql  
 2. cookie,session,redis,nginx反向代理  
 3. sql注入，xss攻击，加密  
-4. 日志，stream，contrab,readline
+4. 日志，stream，contrab,readline  
+
+## 线上环境  
+1. 服务器稳定性  
+2. 充分利用服务器硬件资源，提高性能  
+3. 线上日志记录  
+
+## PM2  
+1. 进程守护，系统崩溃自动重启  
+2. 启动多线程，充分使用CPU和内存  
+3. 自带日志功能  
+
