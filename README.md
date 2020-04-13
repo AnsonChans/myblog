@@ -108,3 +108,8 @@
 2. 启动多线程，充分使用CPU和内存  
 3. 自带日志功能  
 
+## PM2使用  
+1. 下载安装  
+2. 基本使用，和nodemon的区别  
+3. 常用命令，包括：list start restart stop delete info log monit
+
