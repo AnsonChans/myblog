@@ -111,5 +111,10 @@
 ## PM2使用  
 1. 下载安装  
 2. 基本使用，和nodemon的区别  
-3. 常用命令，包括：list start restart stop delete info log monit
+3. 常用命令，包括：list start restart stop delete info log monit. 
+
+## PM2配置  
+1. PM2配置文件（包括进程数量，日志文件目录等  
+2. 修改PM2启动命令，重启  
+3. 访问server,检查日志文件的内容（日志记录是否生效
 
